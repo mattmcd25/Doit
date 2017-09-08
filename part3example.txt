@@ -1,0 +1,83 @@
+Script started on Fri 02 Sep 2016 02:22:55 AM EDT
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ ./doit
+==>firefox &
+[1] 8169 Started firefox
+==>sleep 15 &          jobs
+[1] 8169 firefox
+==>sleep 15 &
+[2] 8222 Started sleep
+==>jiob   obs
+[1] 8169 firefox
+[2] 8222 sleep
+==>[1] 8169 Completed firefox
+System resources used by firefox:
+CPU time used-user: 2684ms
+CPU time used-system: 264ms
+Wall clock time elapsed: 19212ms
+Involuntary context switches: 7650
+Voluntary context switches: 6485
+Major page faults: 0
+Minor page faults: 59749
+Maximum resident set size used: 242664kb
+jobs
+[2] 8222 sleep
+==>sleep 10 &
+[1] 8236 Started sleep
+==>jobs
+[1] 8236 sleep
+[2] 8222 sleep
+==>[2] 8222 Completed sleep
+System resources used by sleep:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 15001ms
+Involuntary context switches: 0
+Voluntary context switches: 2
+Major page faults: 0
+Minor page faults: 81
+Maximum resident set size used: 1996kb
+jobs
+[1] 8236 sleep
+==>[1] 8236 Completed sleep
+System resources used by sleep:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 10001ms
+Involuntary context switches: 0
+Voluntary context switches: 2
+Major page faults: 0
+Minor page faults: 80
+Maximum resident set size used: 1904kb
+firefox &
+[1] 8238 Started firefox
+==>sleep 10 &
+[2] 8292 Started sleep
+==>jobx s
+[1] 8238 firefox
+[2] 8292 sleep
+==>exit
+Waiting for 8238 firefox to end before quitting...
+[1] 8238 Completed firefox
+System resources used by firefox:
+CPU time used-user: 2628ms
+CPU time used-system: 328ms
+Wall clock time elapsed: 15471ms
+Involuntary context switches: 7918
+Voluntary context switches: 6040
+Major page faults: 0
+Minor page faults: 60336
+Maximum resident set size used: 248604kb
+Waiting for 8292 sleep to end before quitting...
+[2] 8292 Completed sleep
+System resources used by sleep:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 10002ms
+Involuntary context switches: 0
+Voluntary context switches: 2
+Major page faults: 0
+Minor page faults: 80
+Maximum resident set size used: 1988kb
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ exit
+
+Script done on Fri 02 Sep 2016 02:24:02 AM EDT

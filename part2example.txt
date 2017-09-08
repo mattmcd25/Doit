@@ -1,0 +1,34 @@
+Script started on Fri 02 Sep 2016 02:26:07 AM EDT
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ ./doit
+==>cd ..
+current directory changed to /home/matt/Documents/CS3013
+==>cd /home
+current directory changed to /home
+==>cd matt.D  /Documents/CS3013
+current directory changed to /home/matt/Documents/CS3013
+==>firefox
+System resources used by firefox:
+CPU time used-user: 2092ms
+CPU time used-system: 224ms
+Wall clock time elapsed: 5300ms
+Involuntary context switches: 4616
+Voluntary context switches: 3887
+Major page faults: 0
+Minor page faults: 52294
+Maximum resident set size used: 231560kb
+==>ls -l
+total 4
+drwxrwxr-x 2 matt matt 4096 Sep  2 02:26 project1
+System resources used by ls:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 3ms
+Involuntary context switches: 4620
+Voluntary context switches: 3888
+Major page faults: 0
+Minor page faults: 52440
+Maximum resident set size used: 231560kb
+==>exit
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ exit
+
+Script done on Fri 02 Sep 2016 02:26:37 AM EDT

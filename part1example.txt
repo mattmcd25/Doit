@@ -1,0 +1,43 @@
+Script started on Fri 02 Sep 2016 02:27:13 AM EDT
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ ./doit ls -l
+total 68
+-rwxrwxr-x 1 matt matt  8704 Aug 30 14:34 a.out
+-rwxrwxr-x 1 matt matt 20464 Sep  2 01:58 doit
+-rw-rw-r-- 1 matt matt  6793 Sep  2 02:12 doit.cpp
+-rw-rw-r-- 1 matt matt 15424 Sep  2 01:58 doit.o
+-rw-rw-r-- 1 matt matt   112 Aug 30 14:36 makefile
+-rw-rw-r-- 1 matt matt     0 Sep  2 02:27 part1example.txt
+-rw-rw-r-- 1 matt matt  1164 Sep  2 02:26 part2example.txt
+-rw-rw-r-- 1 matt matt  2382 Sep  2 02:24 part3example.txt
+System resources used by ls:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 2ms
+Involuntary context switches: 19
+Voluntary context switches: 1
+Major page faults: 0
+Minor page faults: 147
+Maximum resident set size used: 3040kb
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ ./doit firefox
+System resources used by firefox:
+CPU time used-user: 15056ms
+CPU time used-system: 1568ms
+Wall clock time elapsed: 37145ms
+Involuntary context switches: 53042
+Voluntary context switches: 44550
+Major page faults: 1
+Minor page faults: 161155
+Maximum resident set size used: 335000kb
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ ./doit sleep 5
+System resources used by sleep:
+CPU time used-user: 0ms
+CPU time used-system: 0ms
+Wall clock time elapsed: 5001ms
+Involuntary context switches: 0
+Voluntary context switches: 2
+Major page faults: 0
+Minor page faults: 81
+Maximum resident set size used: 1892kb
+]0;matt@matt-gerudo: ~/Documents/CS3013/project1matt@matt-gerudo:~/Documents/CS3013/project1$ exit
+
+Script done on Fri 02 Sep 2016 02:28:14 AM EDT
